@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Website</h1>
+        <p>Welcome to my page</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="images/2d0e67d1-aefd-4005-ab9f-d9d8c4e5da7c.jpg" alt="My Photo">
+        <p>Hello! My name is Byoh. I am a student who enjoys learning new things and improving my skills.</p>
+    </section>
+
+    <section class="hobbies">
+        <h2>My Hobbies</h2>
+
+        <div class="hobby">
+            <img src="images/basketball-7121617_1280.jpg" alt="Basketball">
+            <p>Playing Basketball</p>
+        </div>
+
+        <div class="hobby">
+            <img src="images/unnamed.jpg" alt="Gaming">
+            <p>Gaming</p>
+        </div>
+
+        <div class="hobby">
+            <img src="images/music-7477530_1280.png" alt="Music">
+            <p>Listening to Music</p>
+        </div>
+    </section>
+
+    <section class="interaction">
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Byoh | Personal Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML = "Thanks for visiting my website!";
+        }
+    </script>
+
+</body>
+</html>
